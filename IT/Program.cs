@@ -11,7 +11,7 @@ namespace IT
         static void Main(string[] args)
         {
             Random number = new Random(); //实例化一个随机数           
-            string[] op = new string[] { "＋", "－", "*", "÷" };//定义一个符号数组a
+            string[] op = new string[] { "＋", "－", "*", "÷" };//定义一个符号数组
             for (int i = 0; i <20; i++)
             {
                 double number1 = number.Next(1, 10);//随机一个10以内的数。
